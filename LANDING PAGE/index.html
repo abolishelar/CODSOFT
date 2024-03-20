@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>PRODUCT LANDING PAGE</title>
+  </head>
+  <body>
+<div class="fullscreen">
+	<video src="assets\background.mp4" autoplay muted loop></video>
+    <header class="header">
+      <nav>
+        <div class="nav__logo"><a href="#">Aboli S</a></div>
+        <ul class="nav__links" id="nav-links">
+          <li class="link"><a href="#home">Home</a></li>
+          <li class="link"><a href="#choose">About</a></li>
+	  <li class="link"><a href="#modern">Features</a></li>
+          <li class="link"><a href="#testimonial">Testimonials</a></li>
+          <li class="link"><a href="#models">New</a></li>
+        </ul>
+        <div class="nav__menu__btn" id="menu-btn">
+          <span><i class="ri-menu-line"></i></span>
+        </div>
+        <div class="nav__actions">
+          <span><i class="ri-search-fill"></i></span>
+          <span><i class="ri-user-fill"></i></span>
+        </div>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <h1>Experience the Universe at Your Fingertips: Explore the Next Galaxy</h1>
+        <p>
+          Discover Cutting-Edge Innovation and Unrivaled Performance in Every Galaxy Device
+        </p>
+        <a href="#choose"><i class="ri-arrow-down-double-line"></i></a>
+      </div>
+    </header>
+</div>
+
+    <section class="section__container choose__container" id="choose">
+      <img class="choose__bg" src="assets/dot-bg.png" alt="bg" />
+      <div class="choose__content">
+        <h2 class="section__header">Why Choose Us</h2>
+        <p class="section__subheader">
+         Outstanding Core Features</br>of The Product
+        </p>
+        <div class="choose__grid">
+          <div class="choose__card">
+            <span><i class="ri-user-fill"></i></span>
+            <h4>User Friendly</h4>
+            <p>
+              Fingerprint (side-mounted), accelerometer, gyro, proximity, compass, barometer
+            </p>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-shield-fill"></i></span>
+            <h4>High Security</h4>
+            <p>
+              Unlock even with a mask on. Whether folded or unfolded.
+            </p>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-battery-2-charge-fill"></i></span>
+            <h4>Battery Charging</h4>
+            <p>
+              Fast charging 25W<br>Fast wireless charging 11W7
+            </p>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-magic-fill"></i></span>
+            <h4>Unlimited Features</h4>
+            <p>
+              Samsung DeX <br>Samsung Pay
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="choose__image">
+        <img src="assets/choose.jpeg" alt="choose" />
+      </div>
+    </section>
+
+    <section class="offer__container" id="offer">
+      <div class="offer__grid__top">
+        <img src="assets/1.jpeg" alt="offer" />
+        <img src="assets/2.jpeg" alt="offer" />
+        <img src="assets/3.jpeg" alt="offer" />
+        <div class="offer__content">
+          <h2 class="section__header">Smart Offers</h2>
+          <p class="section__subheader">
+            Unlock Exclusive Deals: Elevate Your Tech Experience with Smart Savings
+          </p>
+          <button class="btn">Explore Now</button>
+        </div>
+      </div>
+      <div class="offer__grid__bottom">
+        <img src="assets/4.jpeg" alt="offer" />
+        <img src="assets/5.jpeg" alt="offer" />
+        <img src="assets/1.jpeg" alt="offer" />
+        <img src="assets/2.jpeg" alt="offer" />
+      </div>
+    </section>
+
+        <section class="section__container modern__container" id="modern">
+      <div class="modern__image">
+        <img src="assets/dot-bg.png" alt="bg" class="modern__bg" />
+        <img src="assets/f1.jpg" alt="modern" class="modern__img-1" />
+        <img src="assets/f2.jpeg" alt="modern" class="modern__img-2" />
+        <img src="assets/choose.jpeg" alt="modern" class="modern__img-3" />
+      </div>
+      <div class="modern__content">
+        <h2 class="section__header">
+          Features are Available
+        </h2>
+        <p class="section__subheader">
+         The Rear and Cover Cameras makes your selfies ready to post on main.
+        </p>
+        <div class="modern__grid">
+          <div class="modern__card">
+            <span><i class="ri-checkbox-blank-circle-line"></i></span>
+            <p>
+              Turn snapshots into portraiture. Get depth of field and lighting changes at a tap with the Rear Camera.
+            </p>
+          </div>
+          <div class="modern__card">
+            <span><i class="ri-checkbox-blank-circle-line"></i></span>
+            <p>
+             AI keeps the color and clarity in your nighttime shots, and Flex mode stabilizes the Rear Camera without extra equipment.
+            </p>
+          </div>
+          <div class="modern__card">
+            <span><i class="ri-checkbox-blank-circle-line"></i></span>
+            <p>
+             The night lights are yours to capture with the Rear and Cover Cameras. Seconds of long-exposure shots become a timelapse video.
+            </p>
+          </div>
+          <div class="modern__card">
+            <span><i class="ri-checkbox-blank-circle-line"></i></span>
+            <p>
+             Wi-Fi 802.11 a/b/g/n/ac/6e, dual-band, Wi-Fi Direct, hotspot.
+            </p>
+          </div>
+        </div>
+        <button class="btn">Explore</button>
+      </div>
+    </section>
+
+    <section class="section__container testimonial__container" id="testimonial">
+      <h2 class="section__header">Testimonials</h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="testimonial__card">
+              <p>
+              I was hesitant to switch from my old device, but after trying out the Samsung Galaxy, I can't imagine going back. The battery life is exceptional, and the display is stunning
+              </p>
+              <img src="assets/profile-pic-1.jpg" alt="testimonial" />
+              <h4>Sam William</h4>
+              <h5>Software Engineer</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial__card">
+              <p>
+               The Samsung Galaxy device surpassed all my expectations! Its sleek design and powerful features make it the perfect companion for both work and play.
+              </p>
+              <img src="assets/profile-pic-2.jpg" alt="testimonial" />
+              <h4>Sarah M.</h4>
+              <h5>Project Manager</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial__card">
+              <p>
+                I've been a loyal Samsung Galaxy user for years, and each new release just keeps getting better. The camera quality alone is worth the investment
+              </p>
+              <img src="assets/profile-pic-3.jpg" alt="testimonial" />
+              <h4>Michael R.</h4>
+              <h5>Marketing Executive</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial__card">
+              <p>
+               What I love most about the Samsung Galaxy is its reliability. Whether I'm streaming videos or multitasking between apps, it never lets me down.
+              </p>
+              <img src="assets/profile-pic-4.jpg" alt="testimonial" />
+              <h4>David S.</h4>
+              <h5>Graphic Designer</h5>
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="section__container blog_container" id="models">
+      <h2 class="section__header">Recent Models</h2>
+      <div class="blog__grid">
+        <div class="blog__card">
+          <img src="assets/product-1.jpeg" alt="blog" />
+          <h4>Galaxy A35</h4>
+        </div>
+        <div class="blog__card">
+          <img src="assets/product-2.jpeg" alt="blog" />
+          <h4>Galaxy S24 Ultra</h4>
+        </div>
+        <div class="blog__card">
+          <img src="assets/product-3.jpeg" alt="blog" />
+          <h4>Galaxy F15</h4>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__content">
+          <h4>SUBSCRIBE TO GET THE LATEST NEWS ABOUT US</h4>
+          <p>
+            We recommend you to subscribe to our newspaper. Enter your email to
+            get our daily updates about us
+          </p>
+        </div>
+        <div class="footer__form">
+          <form action="/">
+            <input type="text" placeholder="Enter your email" />
+            <button>Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="section__container footer__bar">
+        <div class="footer__logo">
+          <h4><a href="#">Aboli S</a></h4>
+          <p>Copyright © 2024 LANDING PAGE. All rights reserved.</p>
+        </div>
+        <ul class="footer__nav">
+          <li class="footer__link"><a href="#">About</a></li>
+          <li class="footer__link"><a href="#">Partnership</a></li>
+          <li class="footer__link"><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
